@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Times New Roman', sans-serif; 
+}
+header{
+    position:sticky;
+    top:0px;
+    z-index:3;
+}
+#loader{
+    position: absolute;
+    top:25rem;
+    left:35rem
+
+}
+#content{
+    display:none;
+}
+#logo{
+    width:3rem;
+}
+#welcome{
+    background:url('images/bg.gif');
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius:3rem
+}
+#message{
+    font-size:20px
+}
+#carousel_img img{
+ height:30rem;
+ object-fit:cover;
+}
+
+#cake{
+    background:url('images/cake.jpg');
+    background-size:cover;
+    color:white;
+}
+#gift{
+    background:url('images/gift.jpg');
+    background-size:cover;
+    color:white;
+}
+@media (min-width:400px) and (max-width:600px){
+    #message_image{
+        width:100%;
+        flex-direction: column;
+    }
+}
