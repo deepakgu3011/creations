@@ -46,8 +46,27 @@ header{
     background-size:cover;
     color:white;
 }
-@media (min-width:400px) and (max-width:600px){
+#message_image img{
+    width:fit-content;
+}
+#message_image{
+    width:50%;
+}
+@media (min-width:100px) and (max-width:650px){
     #message_image{
+        width:100%;
+        flex-direction: column;
+    }
+    #message_image img{
+        width:fit-content;
+    }
+    #insta{
+        flex-direction: column;
+    }
+    #products{
+        flex-direction: column;
+    }
+    #about{
         width:100%;
         flex-direction: column;
     }
