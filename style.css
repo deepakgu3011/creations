@@ -49,9 +49,7 @@ header{
 #message_image img{
     width:fit-content;
 }
-#message_image{
-    width:50%;
-}
+
 @media (min-width:100px) and (max-width:650px){
     #message_image{
         width:100%;
